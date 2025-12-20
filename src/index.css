@@ -1,4 +1,5 @@
 @import "tailwindcss";
+<<<<<<< HEAD
 input,textarea {
   background-color: black;
   color: white;
@@ -21,3 +22,28 @@ button{
 button:active{
   box-shadow: 1px 1px 1px 0px gray;
 }
+=======
+input{
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  margin:1px;
+padding:2px;
+padding-left:4px;
+}
+button{
+  margin-left:2px;
+  padding-left:10px;
+  padding-right: 10px;
+border-radius: 2px;
+cursor:pointer;
+min-width: 100px;
+box-shadow: 1.5px 1.5px 1.5px 0.5px gray;
+transition:all;
+transition-duration: 0.2s;
+}
+button:active{
+  box-shadow: 1px 1px 1px 0px gray;
+  
+}
+>>>>>>> 81f739068d985acb09a768403352e5df245c1a10
